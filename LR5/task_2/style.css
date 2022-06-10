@@ -1,0 +1,40 @@
+.contend {
+    position: absolute;
+    width: 354px;
+    height: 290px;
+    background-color: #81ccc7;
+}
+
+.clouds,
+.ship,
+.world,
+.water {
+    display: block;
+    position: relative;
+}
+
+.world,
+.water {
+    width: 100%;
+}
+
+.clouds {
+    width: 215px;
+    left: 130px;
+}
+
+.ship {
+    width: 75px;
+    top: 115px;
+    left: 11px;
+    z-index: 2;
+}
+
+.world {
+    bottom: 80px;
+}
+
+.water {
+    z-index: 3;
+    bottom: 99px;
+}

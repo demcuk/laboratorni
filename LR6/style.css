@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+
+.container {
+    position: relative;
+    display: flex;
+    width: 980px;
+    min-height: 510px;
+    border: 2px solid #d3d3d3;
+    margin: 70px auto 0 auto;
+}
+
+.shop {
+    margin-top: 35px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.button {
+    position: absolute;
+    z-index: 2;
+    top: 45%;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 33px;
+    color: #d3d3d3;
+    border: 2px solid #d3d3d3;
+    background-color: white;
+}
+
+.left {
+    left: -19px;
+}
+
+.right {
+    right: -19px;
+}
+
+.left:hover,
+.right:hover {
+    color: black;
+    background-color: #d8d8d8;
+    border: 2px solid #535353;
+}
+
+.content {
+    position: relative;
+    width: 25%;
+    border-right: 2px solid #d3d3d3;
+}
+
+.content:last-child {
+    border-right: none;
+}
+
+
+.type,
+.name,
+.name_top {
+    display: block;
+    text-decoration: none;
+}
+
+.type {
+    width: 87%;
+    min-height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 20px;
+    color: #72768a;
+    border-bottom: 2px solid #d3d3d3;
+    margin: 0 auto;
+}
+
+.name,
+.name_top {
+    width: 90%;
+    min-height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    font-size: 19px;
+    color: #009be1;
+    font-weight: bold;
+    text-align: center;
+}
+
+.name_top {
+    line-height: normal;
+    padding-top: 5px;
+}
+
+.sticker {
+    position: absolute;
+    bottom: 92%;
+    right: 5%;
+    width: 84px;
+    height: 84px;
+    line-height: 75px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.green {
+    background-color: #86b022;
+}
+
+.blue {
+    background-color: #009de1;
+    line-height: normal;
+    padding-top: 20px;
+}
+
+img {
+    display: block;
+    width: 70%;
+    height: 180px;
+    margin: 30px auto 20px auto;
+}
+
+img:hover {
+    box-shadow: .3px .3px 6px 6px #b8b8b8;
+}
+
+.prise,
+.buy,
+.soon {
+    display: block;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    line-height: 40px;
+    margin: 15px auto 0 auto;
+}
+
+.prise {
+    min-width: 90%;
+    max-width: 95%;
+}
+
+
+.buy,
+.soon {
+    font-size: 14px;
+    background-color: #f0e524;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buy:hover {
+    width: 150px;
+    background-color: #f0c424;
+    border: 1px solid black;
+}
+
+.discount {
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.soon {
+    background-color: #cc3399;
+    line-height: normal;
+    padding: 4px;
+    color: white;
+}
