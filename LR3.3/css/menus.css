@@ -1,0 +1,25 @@
+ul {
+    background-color: palevioletred;
+    list-style: none;
+    padding: 0px;
+    width: 200px;
+    border: 1px solid mediumvioletred;
+}
+
+.ost{
+    border-bottom: none;
+}
+
+li {
+border-bottom: 1px solid mediumvioletred;
+padding: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ a:hover{
+    text-decoration: underline;
+}

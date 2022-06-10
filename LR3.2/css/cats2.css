@@ -1,0 +1,26 @@
+body{
+    font-family: Verdana;
+}
+
+h1{
+    color:green;
+}
+
+.color {
+    color: white;
+    background-color: red;
+}
+
+figure{
+    border: 3px solid black;
+    width: 600px;
+    padding: 5px;
+}
+
+ img{
+    width: 100%;
+}
+
+article{
+    width: 800px;
+}

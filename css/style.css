@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6LGIq4Sfa1Kg077rAKLM0GgCElH0n1A_1MCM1vcWmEHmfiBGGCYoJvirKINoUE_DmWrk&usqp=CAU);
+}
+
+.container {
+  background-color: #ffffff12;
+  width: 1000px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+/*меню*/
+.menu {
+  list-style: none;
+  /*забирає маркер списку*/
+  background-color: #1c1c1cca;
+  height: 50px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  /*забирає підкреслення силок*/
+  color: #fff;
+  padding: 0px 10px 0px 10px;
+  font-family: Arial;
+  line-height: 50px;
+  /*висота по вертикалі*/
+  display: block;
+  border-right: 1px solid #ffffff5e;
+
+}
+
+.menu li:hover {
+  text-decoration: underline;
+  background: #161616a4;
+  margin-left: 0 auto;
+}
+
+.menu li {
+  float: left;
+}
+
+.contend {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+/*Ліва частина контенду*/
+.left {
+  width: 100%;
+  background-color: #d9dad9;
+  border-radius: 0px 0px 40px 0px;
+}
+
+.img {
+  width: 100%;
+  height: 350px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 20px 0px 10px 0px;
+  text-align: center;
+}
+
+.description {
+  font-size: 20px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+#Contacts {
+  color: #356fe4;
+  text-align: center;
+  font-size: 20px;
+}
+
+.contact_information {
+  padding: 15px 0px 0px 10px;
+  font-size: 20px;
+}
+
+.contact_information p a {
+  text-decoration: none;
+  color: black;
+}
+
+
+/*2 меню з лабами */
+.LR_menu {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.LR_menu a,
+.LR {
+  display: block;
+  width: 90%;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  background-color: #b6b5b6;
+  font-size: 20px;
+  border: 1px solid #606060;
+  border-radius: 5px;
+  margin: 3px auto 0 auto;
+}
+
+.LR {
+  background-color: #848484;
+}
+
+.LR_menu a:hover {
+  background: #356fe4;
+}
+
+/*Права частина контенду*/
+.right {
+  width: 99%;
+  background-color: #b6b5b6;
+  margin-left: auto;
+  border-top-left-radius: 40px;
+}
+
+.header {
+  width: 95%;
+  font-size: 20px;
+  padding: 8px;
+}
+
+.line {
+  width: 650px;
+  height: 2px;
+  border: #356fe4;
+  background-color: #356fe4;
+}
+
+.header .position li,
+.header .position li,
+.header .contributed_position li,
+.header .contributed_position li {
+  margin-left: 30px;
+}
