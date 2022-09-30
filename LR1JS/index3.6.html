@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Демчук ПІ-19-01</title>
+
+</head>
+
+<body>
+    <button class="btn">1) Додати два числа</button>
+    <button class="btnTwo"> 2) Додати два числа</button>
+
+    <script>
+        var unNumber = 5;
+        var twoNumber = 8;
+
+        const btnPartTwo = document.querySelector(".btnTwo");
+        btnPartTwo.addEventListener("click", () => {
+            alert(unNumber + twoNumber);
+        });
+
+        const btnNumbers = document.querySelector(".btn");
+        btnNumbers.addEventListener("click", () => {
+            alert(`Сума двох чисел ${unNumber}+${twoNumber}=${unNumber + twoNumber}`);
+        });
+
+
+    </script>
+</body>
+
+</html>
