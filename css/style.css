@@ -43,7 +43,7 @@ body {
 .menu li:hover {
   text-decoration: underline;
   background: #161616a4;
-  margin-left: 0 auto;
+  margin: 0 auto;
 }
 
 .menu li {
@@ -59,7 +59,6 @@ body {
 .left {
   width: 100%;
   background-color: #d9dad9;
-  border-radius: 0px 0px 40px 0px;
 }
 
 .img {
@@ -102,7 +101,6 @@ h1 {
 /*2 меню з лабами */
 .LR_menu {
   list-style: none;
-  margin-top: 30px;
 }
 
 .LR_menu a,
@@ -116,11 +114,12 @@ h1 {
   font-size: 20px;
   border: 1px solid #606060;
   border-radius: 5px;
-  margin: 3px auto 0 auto;
+  margin: 3px auto 5px auto;
 }
 
 .LR {
   background-color: #848484;
+  margin-top: 30px;
 }
 
 .LR_menu a:hover {
