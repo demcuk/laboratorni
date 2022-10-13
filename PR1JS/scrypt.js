@@ -194,7 +194,7 @@ document.write("Масив: HTML, JavaScript, CSS" + '</br>');
 document.write("Відсортований масив: " + copySorted(arr1));
 
 //--------------------------task 22--------------------------------
-document.write("<h2> Завданння 22<h2>");
+document.write("<h2> Завданння 22</h2>");
 
 function sortByAge(arr) {
     arr.sort(function (a, b) { a.age - b.age });
@@ -211,7 +211,7 @@ document.write("Відсортовано:" + arr[0].name + arr[1].name + arr[2].
 
 
 //--------------------------task 23--------------------------------
-document.write("<h2> Завданння 23<h2>");
+document.write("<h2> Завданння 23</h2>");
 
 function getAverageAge(users) {
     return users.reduce(function (prev, user) {
@@ -228,7 +228,7 @@ arr = [ivan, petro, mariya];
 document.write("Середнє: " + getAverageAge(arr));
 
 //--------------------------task 24--------------------------------
-document.write("<h2> Завданння 24<h2>");
+document.write("<h2> Завданння 24</h2>");
 let users = [
     { id: "іван", name: "Іван Іванко", age: 20 },
     { id: "ганна", name: "Ганна Іванко", age: 24 },
@@ -245,7 +245,7 @@ document.write("Результат: " + JSON.stringify(groupById(users))
 );
 
 //--------------------------task 25--------------------------------
-document.write("<h2> Завданння 25<h2>");
+document.write("<h2> Завданння 25</h2>");
 
 function sumSalaries(salaries) {
 
