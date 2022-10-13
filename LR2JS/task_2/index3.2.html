@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Демчук-19-01</title>
+</head>
+
+<body>
+
+    <button onclick="openImg()">Кнопка</button>
+
+    <style>
+        button {
+            width: 151px;
+            height: 38px;
+            border: 1px solid #000000;
+            background-color: rgb(242, 242, 242);
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 3px;
+            font-family: "Dosis";
+            color: #242929;
+            text-transform: uppercase;
+            margin: 19% auto 0 auto;
+            display: block;
+        }
+
+        button:hover {
+            background-color: rgb(234, 171, 12);
+        }
+    </style>
+
+    <script>
+        function openImg() {
+            let questOnOpenWin = confirm("Відкрити інший документ?")
+            questOnOpenWin ? window.open('bmw.html') : window.close()
+        }
+    </script>
+
+</body>
+
+</html>

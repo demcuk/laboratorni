@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Демчук ПІ-19-01</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="#">
+            <div class="contemt">
+                <div id="inputName">Впишіть сюди своє ім'я </div>
+                <input type="text" onfocus="show()">
+            </div>
+
+            <div>
+                <input type="radio" id="ice" name="inpt" onchange="Change()">
+                <label for="ice" id="iceLable">Морозиво</label>
+                <input type="radio" id="chocolate" name="inpt" onchange="Change()">
+                <label for="chocolate" id="chocolateLable">Шоколад</label>
+                <div id="YouUser">Ви обрали: </div>
+            </div>
+            <button type="submit" onclick="alert('Дякую за участь')">Ок</button>
+        </form>
+    </div>
+    <script src="./script.js"> </script>
+</body>
+
+</html>
