@@ -23,6 +23,7 @@ document.write("Результат додавання 1,2,3: " + arr);
 document.write("<h2>Завдання 3</h2>");
 let arr1 = [1, 2, 3];
 document.write("Початковий масив: " + arr1 + "</br>");
+arr1.reverse()
 document.write("Реверс масиву: " + arr1);
 
 //--------------------------task 4--------------------------------
