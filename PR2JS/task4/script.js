@@ -6,7 +6,7 @@ while (bet <= 0 || isNaN(bet)) {
 }
 
 setTimeout(() => {
-    if (randNumber <= 0) document.write("You don't win");
+    if (randNumber <= 0) document.write("Ви програли");
     else document.write(`You win ${bet * randNumber}`);
 }, 1000);
 
