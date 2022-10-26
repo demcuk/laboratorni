@@ -1,0 +1,37 @@
+body {
+    background-color: rgba(98, 98, 98, 0.427);
+    margin: 10px auto;
+    width: 470px;
+}
+
+h3 {
+    margin: 0;
+    padding: 0 20px .3em 0;
+    font-size: 1.1em;
+}
+
+p {
+    margin: 0;
+    padding: 0 0 .5em;
+}
+
+.biography {
+    background: #d9f8ac;
+    padding: 10px 20px 10px;
+    border-top: solid 4px #afeb56;
+    position: relative;
+}
+
+.red_button {
+    position: absolute;
+    font-size: 100%;
+    top: 0;
+    color: rgb(255, 0, 0);
+    right: 10px;
+    display: block;
+    border: none;
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    cursor: pointer;
+}
