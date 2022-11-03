@@ -1,0 +1,11 @@
+#captcha-button {
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+
+
+#captcha {
+    width: 200px;
+    margin: 20px auto 0 auto;
+}
