@@ -5,7 +5,7 @@ let imagesList = [
         description: "Без ГМО",
     },
     {
-        url: "https://e0.edimdoma.ru/data/ingredients/0000/1043/1043-ed4_wide.jpg?1487748623",
+        url: "https://agrarii-razom.com.ua/sites/default/files/byr/morkva_zvichayna.jpg",
         title: "Морква",
         description: "З ГМО",
     },
