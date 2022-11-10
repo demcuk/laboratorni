@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LR8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <div class="tabs">
+        <div class="tab-header">
+            <div class="tab-h active" data-tab="0">Border radius</div>
+            <div class="tab-h" data-tab="1">Line height</div>
+            <div class="tab-h" data-tab="2">List style</div>
+        </div>
+
+        <div class="tabContent">
+
+            <div class="border_radius_app">
+                <div>Верхній лівий радіус:
+
+                    <input type="range" id="rtl" min="0" max="100" value="0">
+                    <input type="text" id="ttl" value="0" disabled>
+                </div>
+                <div>
+                    Верхній правий радіус:
+                    <input type="range" id="rtr" min="0" max="100" value="0">
+                    <input type="text" id="ttr" value="0" disabled>
+                </div>
+
+                <div>
+                    Нижній правий радіус:
+                    <input type="range" id="rbr" min="0" max="100" value="0">
+                    <input type="text" id="tbr" value="0" disabled>
+                </div>
+                <div>
+                    Нижній лівий радіус:
+                    <input type="range" id="rbl" min="0" max="100" value="0">
+                    <input type="text" id="tbl" value="0" disabled>
+                </div>
+
+
+                <div id="block"></div>
+                <textarea></textarea>
+            </div>
+        </div>
+
+        <div class="tabContent">
+            <div class="text_align_app">
+                <div class="adjust">
+                    <p>leading (line-height)</p>
+                    <input type="range" min="25" max="500" value="130" class="slider" id="myRange">
+                    <p><span id="value"></span><span id="percent">%</span></p>
+                </div>
+                <div class="container">
+                    <p><span id="words">What is called line-height in CSS is also known as
+                            leading in graphic design. The name comes from the thin strips of lead that
+                            typesetters would put between lines of type to increase vertical distance. Line-height
+                            between 120% and 150% is best for legibility. Anything less and the lines can overlap.
+                            Anything more and the lines are too far apart to read quickly.</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tabContent">
+            <div class="text_decoration_app">
+                <span>Виберіть значення: </span>
+                <select class="style_value">
+                    <option value="none">None</option>
+                    <option value="square">Square</option>
+                    <option value="circle">Circle</option>
+                    <option value="decimal">Decimal</option>
+                    <option value="disc">Disc</option>
+                    <option value="lower-latin">lower-latin</option>
+                    <option value="upper-latin">upper-latin</option>
+                </select>
+                <p>list-style : none;</p>
+                <h2>List:</h2>
+                <ul class="style_text">
+                    <li>Task</li>
+                    <li>Task</li>
+                    <li>Task</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
