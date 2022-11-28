@@ -1,0 +1,30 @@
+[
+	{
+		"id": 1,
+		"title": "Льодоруб",
+		"itemsInBox": 6,
+		"price": 300,
+		"imgSrc": "lodoryb.jpg"
+	},
+	{
+		"id": 2,
+		"title": "Карабін",
+		"itemsInBox": 6,
+		"price": 350,
+		"imgSrc": "karabin.jpg"
+	},
+	{
+		"id": 3,
+		"title": "Страхувальна система",
+		"itemsInBox": 6,
+		"price": 450,
+		"imgSrc": "1.jpg"
+	},
+	{
+		"id": 4,
+		"title": "Кріплення",
+		"itemsInBox": 6,
+		"price": 400,
+		"imgSrc": "2.jpeg"
+	}
+]

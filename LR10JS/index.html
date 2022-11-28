@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>Laboratory work 10</title>
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700&amp;subset=cyrillic-ext" rel="stylesheet">
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container text-center">
+
+			<div class="site-title">Гірське споряження</div>
+		</div>
+	</header>
+
+	<div class="container mb-5">
+		<div class="row">
+
+			<!-- Товари -->
+			<div class="col-md-8">
+				<div class="row" id="products-container">
+
+				</div>
+			</div>
+
+			<!-- Корзина -->
+			<div class="col-md-4">
+
+				<!-- Корзина -->
+				<div class="card mb-4">
+					<div class="card-body">
+						<h5 class="card-title">Ваше замовлення</h5>
+
+							<div data-cart-empty class="alert alert-secondary" role="alert">
+							Корзина порожня
+						</div>
+
+						<!-- cart-wrapper -->
+						<div class="cart-wrapper">
+
+						</div>
+						<!-- // cart-wrapper -->
+
+						<!-- Сума замовлення -->
+						<div class="cart-total">
+
+							<p><span class="h5">Разом:</span>
+								<span class="total-price">0</span></p>
+						</div>
+						<!-- // Сума замовлення-->
+
+					</div>
+
+					<!-- Оформити замовлення -->
+					<div id="order-form" class="card-body border-top none">
+						<h5 class="card-title">Оформити замовлення</h5>
+						<form>
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Ваш номер телефона">
+							</div>
+							<button type="submit" class="btn btn-primary">Замовити</button>
+						</form>
+					</div>
+					<!-- // Оформити замовлення -->
+
+				</div>
+				<!-- // Корзина -->
+
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Подключення скриптів -->
+
+	<script src="./js/renderProducts.js"></script>
+	<script src="./js/calcCartPrice.js"></script>
+	<script src="./js/toggleCartStatus.js"></script>
+	<script src="./js/counter-02.js"></script>
+	<script src="./js/cart-02.js"></script>
+
+</body>
+</html>
